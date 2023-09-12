@@ -15,6 +15,6 @@ open class Point(_x:Double, _y: Double): Figure() {
     constructor(_x: Double): this(_x, 0.0)
 
     override fun info() {
-        println("($x,$y)")
+        println("(Точка с координатами ($x,$y)")
     }
 }

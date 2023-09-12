@@ -8,6 +8,6 @@ class ColoredLine(): Line() {
     }
 
     override fun info() {
-        println("Прямая с координатами ${Pair(point1.x,point1.y)}, ${Pair(point2.x,point2.y)}, имеет цвет $color")
+        println("${super.info()}, имеет цвет $color")
     }
 }

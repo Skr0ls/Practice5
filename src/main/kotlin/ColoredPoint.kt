@@ -9,6 +9,6 @@ class ColoredPoint(): Point() {
     constructor(_x: Double, _color: Color): this(_x, 0.0, _color)
     //
     override fun info() {
-        println("Точка с координатами ($x,$y), имеет цвет $color")
+        println("${super.info()}, имеет цвет $color")
     }
 }
