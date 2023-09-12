@@ -11,9 +11,11 @@ open class Point(_x:Double, _y: Double): Figure() {
         y = _y
     }
 
+    //Вторичные конструкторы класса Point
     constructor(): this(0.0,0.0)
     constructor(_x: Double): this(_x, 0.0)
 
+    //Переопределение метода абстрактного метода info
     override fun info() {
         println("(Точка с координатами ($x,$y)")
     }
